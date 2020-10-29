@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Dashboard from './components/Dashboard'
+import AppNavigation from './AppNavigation'
 
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      <AppNavigation/>
     </div>
   );
 }

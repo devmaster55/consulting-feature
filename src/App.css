@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 body {
@@ -45,36 +44,6 @@ body {
 
 
 /* === Sidebar ===*/
-
-/* .sidebar {
-  width: 20%;
-  padding: 10px;
-  background: rgb(34,193,195);
-  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(105,203,154,1) 100%);
-}
-
-.sidebar a {
-  color: white;
-  text-decoration: none;
-}
-.sidebar ul {
-  list-style-type: none;
-  text-align: left;
-  padding: 10% 20%;
-}
-
-.content {
-  flex: 1 1 0%;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.segments-table {
-  margin-top: 5%;
-} */
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -85,9 +54,13 @@ body {
   padding: 48px 0 0;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
   width: 15%;
-  padding: 70px 10px 10px 10px;
+  padding: 70px 10px 10px;
   background: rgb(34,193,195);
   background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(105,203,154,1) 100%);
+}
+
+.sidebar ul {
+  padding-left: 0px;
 }
 
 #sidebar-wrapper{
@@ -112,6 +85,14 @@ body {
 #sidebar-wrapper a {
   color: white;
   text-decoration: none;
+}
+
+/* === Content === */
+.page-container {
+  padding-top: 50px;
+}
+
+.page-content {
 }
 
 #page-content-wrapper {
@@ -241,5 +222,10 @@ input {
 }
 
 .page-title {
-  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.seperator {
+  margin-top: 15px;
 }
